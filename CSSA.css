@@ -1,0 +1,231 @@
+
+.top-header {
+    background-color: rgb(20, 65, 124);
+}
+    
+.menu-item {
+    color: rgb(228, 235, 241);
+    padding: 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.HA {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:ital@1&family=Roboto:ital,wght@1,300&family=Sarabun:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sarabun', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;s
+}
+
+.section_area_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.section_grid_itrm {
+    text-align: center;
+}
+
+.section_item_img img {
+    width: 100%;
+}
+
+.button {
+    color: black;
+    background-color: rgb(239, 206, 116);
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sarabun', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background: rgb(236, 230, 221);
+}
+nav .nav-title {
+    text-align: center;
+}
+
+nav .nav-menu ul {
+    display: flex;
+}
+nav .nav-menu ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+nav .nav-menu ul li a {
+    text-decoration: none;
+    color: rgb(16, 1, 1);
+    transition: .3s;
+}
+nav .nav-menu ul li a:hover {
+    color: rgb(29, 148, 218);
+}
+
+.cover {
+    background-image: url("/Users/beam/Downloads/โปรเจคWEB/ปก.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+.cover .content p {
+    margin-bottom: 50px;
+}
+.cover .content h1, .cover .content p {
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.cover .content a {
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 35px;
+    transition: .3s;
+}
+.cover .content a:hover {
+    background: #fff;
+    color: #333;
+}
+
+.aa {
+    text-align: center;
+}
+
+.pp {
+    background-image: url("/Users/beam/Downloads/โปรเจคWEB/รูป/ปก/ปราจีน.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cc {
+    background-image: url("/Users/beam/Downloads/โปรเจคWEB/รูป/ปก/ชลบุรี.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cs {
+    background-image: url("/Users/beam/Downloads/โปรเจคWEB/รูป/ปก/ฉะเชิงเทรา.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jj {
+    background-image: url("/Users/beam/Downloads/โปรเจคWEB/รูป/ปก/จัน.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tt {
+    background-image: url("/Users/beam/Downloads/โปรเจคWEB/รูป/ปก/ตราด.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rr {
+    background-image: url("/Users/beam/Downloads/โปรเจคWEB/รูป/ปก/ระยอง.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ss {
+    background-image: url("/Users/beam/Downloads/โปรเจคWEB/รูป/ปก/สระแก้ว.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+/* .ปราจีนบุรี */
+.oo h1{
+    text-align: center;
+}
+
+
+

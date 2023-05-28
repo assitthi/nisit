@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;s
+    /* background: red; */
+}
+.section_area_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-gap: 10px; */
+}
+
+.section_grid_itrm {
+    text-align: center;
+}
+
+.section_item_img img {
+    width: 100%;
+}
